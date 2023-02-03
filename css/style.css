@@ -127,6 +127,31 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/*monitor*/
+@media screen and (min-width:1160){
+    .container{
+        width:1160px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+ /*tablet*/
+ @media screen and (min-width:768px){
+    .container{
+        width:768px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
 
  /*telefono*/
  @media screen and (max-width:480px){
@@ -144,29 +169,3 @@ img {
         width: 480px;
     }
  }
-
- /*tablet*/
- @media screen and (max-width:768px){
-    .container{
-        width:768px;
-    }
-
-    .row{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
- }
-
-  /*monitor*/
- /*@media screen and (max-width:100%){
-    .container{
-        width:768px;
-    }
-
-    .row{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
- }*/
