@@ -144,3 +144,29 @@ img {
         width: 480px;
     }
  }
+
+ /*tablet*/
+ @media screen and (max-width:768px){
+    .container{
+        width:768px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+  /*monitor*/
+ /*@media screen and (max-width:100%){
+    .container{
+        width:768px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }*/
