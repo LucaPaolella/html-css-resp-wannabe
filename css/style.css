@@ -127,21 +127,22 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/*monitor*/
-/*@media screen and (min-width:1160){
+
+ /*schermo*/
+ /*@media screen and (min-width:768px){
     .container{
-        width:1160px;
+        width:768px;
+        align-items: center;
+        justify-content: center;  
     }
 
-    .row{
-        display: flex;
+    main{
         align-items: center;
-        justify-content: center;
     }
  }*/
 
  /*tablet*/
- @media screen and (min-width:768px){
+ @media screen and (min-width:481px) and (max-width: 768px){
     .container{
         width:768px;
         align-items: center;
