@@ -145,13 +145,13 @@ img {
  @media screen and (min-width:481px) and (max-width: 768px){
     .container{
         width:768px;
-        align-items: center;
-        justify-content: center;  
+        /*align-items: center;
+        justify-content: center;*/ 
     }
 
-    main{
+    /*main{
         align-items: center;
-    }
+    }*/
  }
 
  /*telefono*/
@@ -169,4 +169,27 @@ img {
     .container{
         width: 480px;
     }
- }
+
+    .card{
+        margin-bottom: 50px;
+    }
+
+    .lessons .col{
+        width: 100% ;
+    }
+
+    .steps .col {
+        width: 100%
+    }
+
+    .steps {
+        margin: 0px;
+    }
+    .why-us {
+        margin-bottom: 0px;
+    }
+
+    .why-us li{
+        margin-bottom: 4rem;
+    }
+}
